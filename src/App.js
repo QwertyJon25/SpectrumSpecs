@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react"
+import Header from "./Header"
+import FaceContainer from "./FaceContainer"
 
 function App() {
+const [emotions, setEmotions] = useState([])
+
+useEffect(() => {
+  fetch("http://localhost:6001/emotions")
+  .then((res) => res.json())
+  .then((emoData) => setEmotions(emoData));
+}, [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <FaceContainer emotions={emotions}/>
     </div>
   );
 }

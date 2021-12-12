@@ -1,0 +1,60 @@
+{
+  "emotions": [
+    {
+      "name": "Happy",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 1
+    },
+    {
+      "name": "Sad",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 2
+    },
+    {
+      "name": "Angry",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 3
+    },
+    {
+      "name": "Confused",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 4
+    },
+    {
+      "name": "Disgusted",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 5
+    },
+    {
+      "name": "Hurt",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 6
+    },
+    {
+      "name": "Interested",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 7
+    },
+    {
+      "name": "Surprised",
+      "image": "HTML",
+      "desc": "",
+      "indication": "",
+      "id": 8
+    }
+  ]
+}
