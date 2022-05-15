@@ -6,8 +6,8 @@ const {name, desc, indication} = emoData
 
     return (
         <div>
-            {name}
-            {desc}
+            {name}<br/>
+            {desc}<br/>
             {indication}
         </div>
     )
