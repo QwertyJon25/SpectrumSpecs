@@ -10,21 +10,21 @@
     {
       "name": "Sad",
       "image": "HTML",
-      "desc": "",
+      "desc": "'Feeling or showing sorrow; unhappy.'",
       "indication": "",
       "id": 2
     },
     {
       "name": "Angry",
       "image": "HTML",
-      "desc": "",
+      "desc": "'Feeling or showing strong annoyance, displeasure, or hostility; full of anger.'",
       "indication": "",
       "id": 3
     },
     {
       "name": "Confused",
       "image": "HTML",
-      "desc": "",
+      "desc": "'Unable to think clearly; bewildered.'",
       "indication": "",
       "id": 4
     },
