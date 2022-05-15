@@ -8,7 +8,7 @@ const {name, desc, indication} = emoData
         <div>
             {name}<br/>
             {desc}<br/>
-            {indication}
+            {indication}<br/>
         </div>
     )
 }
